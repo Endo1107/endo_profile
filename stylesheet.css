@@ -1,0 +1,161 @@
+body{
+    font-family:"Meiryo UI";
+    width:1170px;
+    margin: 0 auto;
+    
+}
+
+.container{
+    padding:0px 40px;
+}
+
+header{
+    height: 40px;
+    background-color: rgba(36, 48, 42,0.9);
+    color: white;
+    position:fixed;
+    top:0px;
+    width:100%;
+    z-index:10;
+}
+.header-logo span{
+    font-weight:normal;
+    font-size:15px;
+}
+
+.header-logo{
+    font-size:20px;
+    padding:5px 10px;
+    float:left;
+    font-weight: bolder;
+}
+
+.header-list{
+    float:right;
+}
+.header-list li{
+    list-style: none;
+}
+
+
+
+
+.profile-title{
+    background-image:url(/image/Title.jpg);
+    background-size: cover;
+    height:400px;
+}
+
+.profile-box{
+    padding-top:200px;
+    float:right;
+}
+.profile-box h1{
+    color: rgba(255, 255, 255, 0.8);
+}
+.profile-box a{
+    color:white;
+    background-color: #55acee;
+    opacity:0.8;
+}
+
+.btn{
+    display:inline-box;
+    padding:10px 17px;
+    border-radius: 4px;
+    box-shadow: 0px 7px #3155a3;
+}
+
+.btn:hover{
+    opacity:1;
+}
+.btn:active{
+    box-shadow:none;
+    position:relative;
+    top:7px;
+}
+.fa{
+    padding-right:5px;
+}
+
+
+.profile-main{
+    background-color: rgb(241, 241, 240);
+    height:300px;
+}
+.profile-wrapper{
+    padding:10px 0px 20px 0px;
+    color:rgb(73, 82, 78);
+}
+
+h2{
+    color:rgb(71, 94, 85);
+    padding-bottom: 20px;
+    border-bottom:solid 1px rgb(73, 82, 78);
+}
+
+.icon{
+    float:left;
+    display:block;
+}
+.icon img{
+    width:120px;
+    border-radius: 100%;
+}
+.icon p{
+    top:-9px;
+    text-align:center;
+}
+
+.profile-txt{
+    padding-top: 20px;
+    display: block;
+    float:left;
+    padding-left: 18px;
+}
+.work-wrappaer{
+    margin-bottom: 40px;
+}
+.work{
+    float: left;
+    width: 25%;
+    text-align: center;
+    color:rgb(73, 82, 78);
+}
+.work-img img{
+    width: 230px;
+    height:150px;
+    border-radius: 10px;
+}
+.work-img p{
+    font-size: 20px;   
+}
+.work-text{
+    display: block;
+    padding: 0px 10px;
+    font-size: 12px;
+}
+
+.work-text span{
+    color: rgb(126, 141, 134);
+    font-size:10px;
+}
+
+footer{
+    background-color:  rgb(36, 48, 42);
+    width: 100%;
+    float:left;
+}
+.footer-logo{
+    padding:10px 55px;
+    color:azure;
+}
+
+.footer-logo h3{
+    font-size: 15px;
+    font-weight: normal;
+}
+.footer-logo p{
+    font-size: 10px;
+}
+
