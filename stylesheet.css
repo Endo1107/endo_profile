@@ -41,7 +41,7 @@ header{
 
 
 .profile-title{
-    background-image:url(/image/Title.jpg);
+    background-image:url(Title.jpg);
     background-size: cover;
     height:400px;
 }
