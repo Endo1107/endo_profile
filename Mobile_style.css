@@ -1,0 +1,16 @@
+@media(max-width:960px){
+    .work{
+        width:50%;
+    }
+}
+@media(max-width:480px){
+    .work{
+        width:100%;
+    }
+    .Endo_life{
+        width: 100%;
+    }
+    footer{
+        text-align:right;
+    }
+}
